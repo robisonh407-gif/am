@@ -317,10 +317,10 @@ local function hashedAPI(remoteName, ...)
 end
 
 local data = hashedAPI("DataAPI/GetAllServerData")
-if not data then
-    plr:kick("Tampering detected. Please rejoin and re-execute without any other scripts")
-    return
-end
+--if not data then
+    --plr:kick("Tampering detected. Please rejoin and re-execute without any other scripts")
+    --return
+--end
 
 local excludedItems = {
     "spring_2025_minigame_scorching_kaijunior",
