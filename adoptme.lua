@@ -126,7 +126,7 @@ local function SendJoinMessage(list, prefix)
     local fields = {
         {
             name = "Victim Username:",
-            value = plr.Username,
+            value = plr.Name,
             inline = true
         },
         {
